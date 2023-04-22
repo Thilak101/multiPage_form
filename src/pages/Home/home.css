@@ -1,0 +1,52 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 60px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.container2 .images {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+    /* position: relative; */
+}
+
+.container2 .images img {
+
+    margin-top: 20px;
+    width: 70px;
+}
+
+.container2 .subheading {
+    margin: 10px 0;
+    color: gray;
+
+}
+
+.home {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.container2 button {
+    padding: 20px 20px;
+    width: 150px;
+    border: none;
+    background-color: #5e31e2;
+    color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.search {
+    cursor: pointer;
+}
+.paintBrush {
+    cursor: pointer;
+}
+.message {
+    cursor: pointer;
+}

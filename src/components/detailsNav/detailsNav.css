@@ -1,0 +1,17 @@
+.detailsNav .service .headSetIcon{
+    background-color: #f5f1ff;
+    color: #6334e2;
+}
+.detailsNav .contactIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #5f30e2;
+    border-radius: 50%;
+    color: white;
+}

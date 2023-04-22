@@ -1,0 +1,190 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    justify-content: space-between;
+    /* justify-content: center; */
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container .service {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+.container .service .headSetIcon {
+    font-size: 30px;
+    background-color: #5f30e2;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container .setpAndService {
+    padding-left: 20px;
+}
+
+.container .setpAndService h5 {
+    font-weight: normal;
+    color: #5f30e2;
+    padding-bottom: 5px;
+}
+
+.container .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.container .iconClass {
+    width: fit-content;
+    font-size: 25px;
+    color: gray;
+    padding: 0 20px;
+}
+
+.container .contactIcon {
+    position: relative;
+}
+
+.container .contactIcon::before {
+    content: "Contact";
+    background-color: gray;
+    color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.container .contactIcon:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out all;
+
+}
+
+.container .featherPen {
+    position: relative;
+}
+
+.container .featherPen::before {
+    content: "Written Content";
+    background-color: gray;
+    color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: -4px;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.container .featherPen:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out all;
+
+}
+
+.container .penNib {
+    position: relative;
+}
+
+.container .penNib::before {
+    content: "Illustrations";
+    background-color: gray;
+    color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: -4px;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.container .penNib:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out all;
+
+}
+
+.container .tag {
+    position: relative;
+}
+
+.container .tag::before {
+    content: "Project Bracket";
+    background-color: gray;
+    color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: -4px;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.container .tag:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out all;
+
+}
+
+.container .message {
+    position: relative;
+}
+
+.container .message::before {
+    content: "Message";
+    background-color: gray;
+    color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 4px;
+    visibility: hidden;
+    transition: .3s ease all;
+}
+
+.container .message:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out all;
+
+}
+
+
+
+hr {
+    width: 1px;
+    height: 30px;
+    border-left: 6px solid #f4f4f8;
+    border-right: none;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 5px;
+}

@@ -1,0 +1,82 @@
+.details {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 60px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.container3_subheading {
+    color: gray;
+}
+
+.details label>small {
+    color: gray;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+input:focus {
+    border: #6334E2 2px solid;
+    outline: none;
+    background-color: #f5f1ff;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.container3 .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.container3 .buttons .back {
+    padding: 20px 20px;
+    width: 150px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.back:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.container3 .buttons .back small {
+    margin-left: 10px;
+}
+
+.container3 .buttons button {
+    padding: 20px 20px;
+    width: 150px;
+    border: none;
+    background-color: #5e31e2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

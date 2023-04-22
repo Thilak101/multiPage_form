@@ -1,0 +1,58 @@
+.projectBracket .service .headSetIcon {
+    background-color: #f5f1ff;
+    color: #6334e2;
+}
+
+.projectBracket .container .contactIcon {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #f5f1ff;
+    border-radius: 50%;
+    color: #5f30e2;
+}
+
+.projectBracket .featherPen {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #f5f1ff;
+    border-radius: 50%;
+    color: #5f30e2;
+}
+
+.projectBracket .penNib {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #f5f1ff;
+    border-radius: 50%;
+    color: #5f30e2;
+}
+
+.projectBracket .tag {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #5f30e2;
+    border-radius: 50%;
+    color: white;
+}
